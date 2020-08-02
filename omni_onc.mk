@@ -42,6 +42,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.treble.enabled=true \
+    ro.vendor.build.security_patch=2099-12-31 \
     persist.sys.isUsbOtgEnabled=true
 
 # Timezone package

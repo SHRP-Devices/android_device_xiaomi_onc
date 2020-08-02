@@ -159,3 +159,6 @@ TW_EXCLUDE_SUPERSU := true
 # LZMA ramdisk compression
 LZMA_RAMDISK_TARGETS := recovery
 LZMA_COMPRESSION := -9
+
+# Hack: prevent anti rollback
+PLATFORM_SECURITY_PATCH := 2099-12-31
