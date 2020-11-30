@@ -38,3 +38,6 @@ vendor/lib64/libdiag.so:recovery/root/vendor/lib64/libdiag.so
 
 # Time Services - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
 vendor/lib64/libtime_genoff.so:recovery/root/vendor/lib64/libtime_genoff.so
+
+# TUI - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:recovery/root/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
