@@ -30,3 +30,5 @@ vendor/lib64/libkeymasterprovision.so:recovery/root/vendor/lib64/libkeymasterpro
 vendor/lib64/libkeymasterutils.so:recovery/root/vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so:recovery/root/vendor/lib64/libqtikeymaster4.so
 
+# Misc - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
+vendor/ueventd.rc:recovery/root/ueventd.qcom.rc
