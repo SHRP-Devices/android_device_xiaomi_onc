@@ -2,3 +2,17 @@
 vendor/lib64/libqdutils.so:recovery/root/vendor/lib64/libqdutils.so
 vendor/lib64/libqservice.so:recovery/root/vendor/lib64/libqservice.so
 vendor/lib64/vendor.display.config@1.0.so:recovery/root/vendor/lib64/vendor.display.config@1.0.so
+
+# DRM - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
+vendor/lib64/libGPreqcancel.so:recovery/root/vendor/lib64/libGPreqcancel.so
+vendor/lib64/libGPreqcancel_svc.so:recovery/root/vendor/lib64/libGPreqcancel_svc.so
+vendor/lib64/libQSEEComAPI.so:recovery/root/vendor/lib64/libQSEEComAPI.so
+vendor/lib64/libSecureUILib.so:recovery/root/vendor/lib64/libSecureUILib.so
+vendor/lib64/libStDrvInt.so:recovery/root/vendor/lib64/libStDrvInt.so
+vendor/lib64/libdrmfs.so:recovery/root/vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so:recovery/root/vendor/lib64/libdrmtime.so
+vendor/lib64/libqisl.so:recovery/root/vendor/lib64/libqisl.so
+vendor/lib64/librpmb.so:recovery/root/vendor/lib64/librpmb.so
+vendor/lib64/libsecureui.so:recovery/root/vendor/lib64/libsecureui.so
+vendor/lib64/libsecureui_svcsock.so:recovery/root/vendor/lib64/libsecureui_svcsock.so
+vendor/lib64/libssd.so:recovery/root/vendor/lib64/libssd.so
