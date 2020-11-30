@@ -1,0 +1,4 @@
+# Display - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
+vendor/lib64/libqdutils.so:recovery/root/vendor/lib64/libqdutils.so
+vendor/lib64/libqservice.so:recovery/root/vendor/lib64/libqservice.so
+vendor/lib64/vendor.display.config@1.0.so:recovery/root/vendor/lib64/vendor.display.config@1.0.so
