@@ -32,3 +32,6 @@ vendor/lib64/libqtikeymaster4.so:recovery/root/vendor/lib64/libqtikeymaster4.so
 
 # Misc - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
 vendor/ueventd.rc:recovery/root/ueventd.qcom.rc
+
+# QMI - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
+vendor/lib64/libdiag.so:recovery/root/vendor/lib64/libdiag.so
