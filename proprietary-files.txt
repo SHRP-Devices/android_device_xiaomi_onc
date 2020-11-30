@@ -16,3 +16,6 @@ vendor/lib64/librpmb.so:recovery/root/vendor/lib64/librpmb.so
 vendor/lib64/libsecureui.so:recovery/root/vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so:recovery/root/vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so:recovery/root/vendor/lib64/libssd.so
+
+# Gatekeeper - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:recovery/root/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
