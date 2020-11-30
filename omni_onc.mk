@@ -39,3 +39,7 @@ PRODUCT_NAME := omni_onc
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
+
+# Timezone package
+PRODUCT_PACKAGES += \
+    tzdata_twrp
