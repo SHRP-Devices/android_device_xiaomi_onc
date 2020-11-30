@@ -19,3 +19,7 @@ vendor/lib64/libssd.so:recovery/root/vendor/lib64/libssd.so
 
 # Gatekeeper - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:recovery/root/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+
+# HIDL - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
+vendor/etc/vintf/compatibility_matrix.xml:recovery/root/vendor/etc/vintf/compatibility_matrix.xml
+vendor/etc/vintf/manifest.xml:recovery/root/vendor/etc/vintf/manifest.xml
