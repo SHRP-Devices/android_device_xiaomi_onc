@@ -8,3 +8,6 @@ SoC | Qualcomm MSM8953 Snapdragon 632
 CPU | Octa core (1.8 GHz, Quad core, Kryo 250 + 1.8 GHz Quad core, Kryo 250)
 GPU | Adreno 506
 Shipped Android Version | Android 9.0 with MIUI 10
+
+## Device picture
+![Xiaomi Redmi 7 ](https://i.imgur.com/PjaQrqr.png "Xiaomi Redmi 7")
