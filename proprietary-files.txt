@@ -23,3 +23,10 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:recovery/root/vendor
 # HIDL - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
 vendor/etc/vintf/compatibility_matrix.xml:recovery/root/vendor/etc/vintf/compatibility_matrix.xml
 vendor/etc/vintf/manifest.xml:recovery/root/vendor/etc/vintf/manifest.xml
+
+# Keymaster - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
+vendor/lib64/libkeymasterdeviceutils.so:recovery/root/vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterprovision.so:recovery/root/vendor/lib64/libkeymasterprovision.so
+vendor/lib64/libkeymasterutils.so:recovery/root/vendor/lib64/libkeymasterutils.so
+vendor/lib64/libqtikeymaster4.so:recovery/root/vendor/lib64/libqtikeymaster4.so
+
