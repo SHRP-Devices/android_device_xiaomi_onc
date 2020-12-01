@@ -11,3 +11,8 @@ Shipped Android Version | Android 9.0 with MIUI 10
 
 ## Device picture
 ![Xiaomi Redmi 7 ](https://i.imgur.com/PjaQrqr.png "Xiaomi Redmi 7")
+
+## Kernel source
+```
+https://github.com/TheSync/android_kernel_xiaomi_onclite/tree/recovery
+```

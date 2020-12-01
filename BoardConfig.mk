@@ -58,6 +58,7 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.usbconfigfs=true loop.max_part=7 \
     androidboot.selinux=permissive
 
+BOARD_KERNEL_IMAGE_NAME       := Image.gz-dtb
 BOARD_KERNEL_BASE             := 0x80000000
 BOARD_KERNEL_PAGESIZE         := 2048
 BOARD_KERNEL_OFFSET           := 0x00008000
@@ -65,6 +66,19 @@ BOARD_RAMDISK_OFFSET          := 0x01000000
 BOARD_SECOND_OFFSET           := 0x00f00000
 BOARD_KERNEL_TAGS_OFFSET      := 0x00000100
 BOARD_BOOTIMG_HEADER_VERSION  := 1
+
+BOARD_INCLUDE_RECOVERY_DTBO   := true
+
+TARGET_PREBUILT_KERNEL        := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
+BOARD_PREBUILT_DTBOIMAGE      := $(LOCAL_PATH)/prebuilt/dtbo.img
+
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/xiaomi/onclite
+TARGET_KERNEL_CONFIG := onclite-perf_defconfig
+TARGET_KERNEL_VERSION := 4.9
+BOARD_KERNEL_SEPARATED_DTBO := true
+endif
 
 BOARD_MKBOOTIMG_ARGS := \
     --base $(BOARD_KERNEL_BASE) \
