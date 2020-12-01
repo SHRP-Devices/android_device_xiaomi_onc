@@ -1,3 +1,6 @@
+# Decrypt files - from onc-user 9 PKQ1.181021.001 V11.0.3.0.PFLMIXM release-keys
+vendor/bin/qseecomd:recovery/root/sbin/qseecomd
+
 # Display - from onc-user 10 QKQ1.191008.001 V11.0.3.0.QFLCNXM release-keys
 vendor/lib64/libqdutils.so:recovery/root/vendor/lib64/libqdutils.so
 vendor/lib64/libqservice.so:recovery/root/vendor/lib64/libqservice.so
