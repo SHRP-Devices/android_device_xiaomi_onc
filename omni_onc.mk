@@ -43,3 +43,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Timezone package
 PRODUCT_PACKAGES += \
     tzdata_twrp
+
+# HIDL
+TARGET_RECOVERY_DEVICE_MODULES += \
+    android.hidl.base@1.0
+
+TW_RECOVERY_ADDITIONAL_RELINK_FILES += \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hidl.base@1.0.so
