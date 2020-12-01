@@ -40,6 +40,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.treble.enabled=true \
+    persist.sys.isUsbOtgEnabled=true
+
 # Timezone package
 PRODUCT_PACKAGES += \
     tzdata_twrp
