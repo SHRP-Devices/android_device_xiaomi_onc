@@ -155,3 +155,7 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_EXCLUDE_TWRPAPP := true
 TW_EXCLUDE_SUPERSU := true
+
+# LZMA ramdisk compression
+LZMA_RAMDISK_TARGETS := recovery
+LZMA_COMPRESSION := -9
