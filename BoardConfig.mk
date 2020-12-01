@@ -66,6 +66,15 @@ BOARD_SECOND_OFFSET           := 0x00f00000
 BOARD_KERNEL_TAGS_OFFSET      := 0x00000100
 BOARD_BOOTIMG_HEADER_VERSION  := 1
 
+BOARD_MKBOOTIMG_ARGS := \
+    --base $(BOARD_KERNEL_BASE) \
+    --pagesize $(BOARD_KERNEL_PAGESIZE) \
+    --kernel_offset $(BOARD_KERNEL_OFFSET) \
+    --ramdisk_offset $(BOARD_RAMDISK_OFFSET) \
+    --second_offset $(BOARD_SECOND_OFFSET) \
+    --tags_offset $(BOARD_KERNEL_TAGS_OFFSET) \
+    --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := onc,onclite
 
