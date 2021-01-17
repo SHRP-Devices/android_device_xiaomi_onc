@@ -1,11 +1,5 @@
 [
   {
-    "remote":      "TeamWin",
-    "repository":  "android_device_qcom_twrp-common",
-    "target_path": "device/qcom/twrp-common",
-    "revision":    "android-9.0"
-  },
-  {
     "remote":      "github",
     "repository":  "TheSync/android_kernel_xiaomi_onclite",
     "target_path": "kernel/xiaomi/onclite",
