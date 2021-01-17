@@ -110,7 +110,6 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
 
 # System as root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
-BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # File systems
