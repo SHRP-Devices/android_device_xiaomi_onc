@@ -37,7 +37,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 PRODUCT_DEVICE := onc
 PRODUCT_NAME := omni_onc
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 7
+PRODUCT_MODEL := Redmi 7/Y3
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_PROPERTY_OVERRIDES += \
