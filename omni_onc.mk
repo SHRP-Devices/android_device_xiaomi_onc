@@ -48,3 +48,26 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Timezone package
 PRODUCT_COPY_FILES += \
     system/timezone/output_data/iana/tzdata:recovery/root/system_root/system/usr/share/zoneinfo/tzdata
+
+# SHRP specific flags
+SHRP_PATH := device/xiaomi/onc
+SHRP_MAINTAINER := TheSync
+SHRP_DEVICE_CODE := onc
+SHRP_OFFICIAL := true
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A_Only
+SHRP_STATUSBAR_RIGHT_PADDING := 48
+SHRP_STATUSBAR_LEFT_PADDING := 48
+SHRP_NOTCH := true
+SHRP_EXPRESS := true
+INC_IN_REC_MAGISK := true
+INC_IN_REC_ADDON_1 := true
+INC_IN_REC_ADDON_2 := true
+INC_IN_REC_ADDON_3 := true
+INC_IN_REC_ADDON_4 := true
