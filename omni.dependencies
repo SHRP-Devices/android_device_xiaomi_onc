@@ -1,12 +1,5 @@
 [
   {
-    "remote":      "github",
-    "repository":  "TheSync/android_kernel_xiaomi_onclite",
-    "target_path": "kernel/xiaomi/onclite",
-    "revision":    "recovery",
-    "clone-depth": "1"
-  },
-  {
     "remote":      "omnirom",
     "repository":  "android_vendor_qcom_opensource_commonsys",
     "target_path": "vendor/qcom/opensource/commonsys",
